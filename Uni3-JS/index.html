@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=estilos.css>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Un placer volvernos a encontrar</h1><br> <br> <br>
+
+    </header>
+    <main>
+        <section>
+            <h2>Ingrese al sistema</h2>
+        </section>
+
+<!-- Para poder acceder a cualquier elemento de html a través de java, se le pone un id -->
+        <section>
+            <form action="#" method="GET" class="formulario" id="formulario">
+
+                    <div class="formulario-usuario">
+                      <label for="name" name="usuario">Usuario:</label>
+                      <input type="email" id="usuario">
+                    </div>
+                        <br><br>
+
+                        <div class="formulario-password">
+                            <label for="name" name="password">Contraseña:</label>
+                            <input type="password" id="password">
+                        </div>
+
+
+                        <div class="boton-formulario" id="boton-formulario">
+                            <input type="submit" onclick='return validarFormulario()' value="Enviar" class="boton">
+                            <p class="warning" id="warning"></p>
+                        </div>
+            </form>
+        </section>
+    </main>
+    <script src="java.js"></script>
+    <script src="https://kit.fontawesome.com/0b944bf1c5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</html>
